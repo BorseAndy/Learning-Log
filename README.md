@@ -69,7 +69,8 @@ Master's Dissertation
 
 #### September
 
-* [Day 01 — GitHub Professional Setup](./2026/09-september/day-01-github-professional-setup.md)
+* [Day 01 — GitHub Professional Setup](./2026/week_01/09-september/day-01-github-professional-setup.md)
+* [Day 02 - Linux Filesystem Fundamentals](./2026/week_01/10-september/day-02-linux-filesystem-fundamentals.md)
 
 More entries will be added as the journey progresses.
 
