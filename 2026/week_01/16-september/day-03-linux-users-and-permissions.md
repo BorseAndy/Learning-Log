@@ -13,7 +13,7 @@ Understand Linux users, groups, ownership and file permissions.
 * UID/GID values are **identifiers**, not permission levels.
 * Group membership can provide additional permissions depending on the system configuration.
 * `sudo -u <user> <command>` runs a command as another Linux user without permanently switching users.
-* `ls -l` displays file type, permissions, owner, group, size and modification time.
+* `ls -l` displays file type, permissions, owner, group, size and modification time. For a detailed breakdown of the output: → See [`resources/day-03-linux-ls-long-format.md](../../../resources/day-03-linux-ls-long-format.md)
 * File permissions are divided into **owner / group / others** and use `r` (read), `w` (write) and `x` (execute).
 
 ## 🔨 What I practiced
@@ -53,7 +53,7 @@ chmod 755 testfile.md
 chmod 640 testfile.md
 chmod 740 testfile.md
 ```
-
+For a detailed explanation of permission groups and octal notation: → See [`resources/day-03-file-permissions.md](../../../resources/day-03-file-permissions.md)
 This helped me understand how the three permission groups (**owner / group / others**) are represented and modified.
 
 ### Ownership
@@ -107,6 +107,15 @@ Linux access control is based on the combination of **user identity, group membe
 ## 🔗 Resource
 
 * [Linux Journey — Permissions](https://labex.io/linuxjourney/courses/permissions)
+
+### 📚 Additional resources
+
+For more detailed explanations and reference material:
+
+* [`resources/linux-ls-long-format.md`](../../../resources/day-03-linux-ls-long-format.md) — breakdown of `ls -l` output and file metadata.
+* [`resources/linux-file-permissions.md`](../../../resources/day-03-file-permissions.md) — permission notation, `rwx`, octal values and `chmod`.
+* [`resources/linux-users-and-groups.md`](../../../resources/day-03-linux-users-and-groups.md) — UID, GID, users, groups and `sudo`.
+
 
 ## ➡️ Next
 
