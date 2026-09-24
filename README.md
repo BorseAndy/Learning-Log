@@ -73,6 +73,7 @@ Master's Dissertation
 * [Day 02 - Linux Filesystem Fundamentals](./2026/week_01/10-september/day-02-linux-filesystem-fundamentals.md)
 * [Day 03 - Linux Users and Groups](./2026/week_01/16-september/day-03-linux-users-and-permissions.md)
 * [Day 04 - Networking Fundamentals](./2026/week_01/21-september/day-04-networking-fundamentals.md)
+* [Day 05 - Linux System Navigation](./2026/week_02/24-september/day-05-linux-system-navigation.md)
 
 More entries will be added as the journey progresses.
 
@@ -84,8 +85,12 @@ More entries will be added as the journey progresses.
 Learning-Log/
 │
 ├── 2026/
-│   └── 09-september/
-│       └── daily learning entries
+│   ├── week_01/
+│   │   └── DD-month/
+│   │       └── day-XX-topic.md
+│   └── week_02/
+│       └── DD-month/
+│           └── day-XX-topic.md
 │
 ├── templates/
 │   └── daily-log.md
